@@ -539,19 +539,37 @@ Want to contribute? Pull requests are welcome. For major changes, please open an
 
 ## Citation
 
-If you use this repository or its results in your research, please cite it as:
+### Companion paper (under review)
+
+This repository accompanies the following manuscript, currently **under review** at the *ISPRS Journal of Photogrammetry and Remote Sensing* (Manuscript ID: **ISRS-D-25-00980R1**, revision 1):
+
+> **Comparative analysis of semantic segmentation for mobile laser scanning point clouds using PointNet-based models and PointCNN in urban roadway environments** — Bhagat Kumar Das.
+
+If you use this repository or its results in your research, please cite **both** the paper and the code:
 
 ```bibtex
-@misc{das_outdoor_lidar_semseg_2026,
+@article{das_mls_pointcloud_semseg_2025,
+  author  = {Bhagat Kumar Das},
+  title   = {Comparative analysis of semantic segmentation for mobile laser scanning point clouds using {PointNet}-based models and {PointCNN} in urban roadway environments},
+  journal = {ISPRS Journal of Photogrammetry and Remote Sensing},
+  year    = {2025},
+  note    = {Manuscript ID: ISRS-D-25-00980R1 (revision 1, under review)}
+}
+
+@software{das_mls_pointcloud_semseg_code_2026,
   author       = {Bhagat Kumar Das},
   title        = {Multi-Dataset Multi-Model Point Cloud Semantic Segmentation: PyTorch Benchmark of PointNet, PointNet++ (SSG/MSG), and PointCNN on Paris-Lille-3D and Toronto-3D},
   year         = {2026},
   howpublished = {\url{https://github.com/bhagatdas/multidataset-multimodel-pointcloud-semseg}},
-  note         = {Accessed: YYYY-MM-DD}
+  note         = {Code repository accompanying ISRS-D-25-00980R1}
 }
 ```
 
-Underlying datasets and architectures — please cite the original authors as well:
+> This README and BibTeX will be updated with the final DOI, volume, and page numbers once the paper is accepted and published.
+
+### Underlying datasets and architectures
+
+Please also cite the original authors of the datasets and model architectures used here:
 
 - Roynard et al., *Paris-Lille-3D: A large and high-quality ground-truth urban point cloud dataset for automatic segmentation and classification*, IJRR 2018.
 - Tan et al., *Toronto-3D: A Large-scale Mobile LiDAR Dataset for Semantic Segmentation of Urban Roadways*, CVPRW 2020.
