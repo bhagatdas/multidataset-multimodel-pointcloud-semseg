@@ -1,0 +1,19 @@
+# Create conda environment
+conda create -n pointnet_env python=3.8
+conda activate pointnet_env
+
+# Install PyTorch with CUDA support
+conda install pytorch torchvision torchaudio pytorch-cuda=11.8 -c pytorch -c nvidia
+
+# Install dependencies
+pip install numpy pandas scikit-learn tqdm h5py plyfile
+pip install tensorboard wandb  # For logging (optional)
+
+# Install PointNet++ custom CUDA operations
+# git clone https://github.com/erikwijmans/Pointnet2_PyTorch.git
+# cd Pointnet2_PyTorch
+# pip install -r requirements.txt
+# pip install -e .
+pip install optuna joblib tensorboard
+pip install plyfile numpy tqdm
+
