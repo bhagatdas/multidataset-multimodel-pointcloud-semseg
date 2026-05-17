@@ -526,6 +526,11 @@ IoU per class is `TP / (TP + FP + FN)` from the confusion matrix, with `+1e-10` 
       <br/>
       <sub>Lead developer · MNNIT</sub>
     </td>
+    <td align="center">
+      <b>Poonam Pardeshi</b>
+      <br/>
+      <sub>Co-author</sub>
+    </td>
   </tr>
 </table>
 
@@ -543,21 +548,21 @@ Want to contribute? Pull requests are welcome. For major changes, please open an
 
 This repository accompanies the following manuscript, currently **under review** at the *ISPRS Journal of Photogrammetry and Remote Sensing* (Manuscript ID: **ISRS-D-25-00980R1**, revision 1):
 
-> **Comparative analysis of semantic segmentation for mobile laser scanning point clouds using PointNet-based models and PointCNN in urban roadway environments** — Bhagat Kumar Das.
+> **Comparative analysis of semantic segmentation for mobile laser scanning point clouds using PointNet-based models and PointCNN in urban roadway environments** — Bhagat Kumar Das and Poonam Pardeshi.
 
 If you use this repository or its results in your research, please cite **both** the paper and the code:
 
 ```bibtex
-@article{das_mls_pointcloud_semseg_2025,
-  author  = {Bhagat Kumar Das},
+@article{das_pardeshi_mls_pointcloud_semseg_2025,
+  author  = {Bhagat Kumar Das and Poonam Pardeshi},
   title   = {Comparative analysis of semantic segmentation for mobile laser scanning point clouds using {PointNet}-based models and {PointCNN} in urban roadway environments},
   journal = {ISPRS Journal of Photogrammetry and Remote Sensing},
   year    = {2025},
   note    = {Manuscript ID: ISRS-D-25-00980R1 (revision 1, under review)}
 }
 
-@software{das_mls_pointcloud_semseg_code_2026,
-  author       = {Bhagat Kumar Das},
+@software{das_pardeshi_mls_pointcloud_semseg_code_2026,
+  author       = {Bhagat Kumar Das and Poonam Pardeshi},
   title        = {Multi-Dataset Multi-Model Point Cloud Semantic Segmentation: PyTorch Benchmark of PointNet, PointNet++ (SSG/MSG), and PointCNN on Paris-Lille-3D and Toronto-3D},
   year         = {2026},
   howpublished = {\url{https://github.com/bhagatdas/multidataset-multimodel-pointcloud-semseg}},
